@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom';
-import LogoIcon from '../assets/shared/logo.svg';
-import HamburgerIcon from '../assets/shared/icon-hamburger.svg';
-import CloseIcon from '../assets/shared/icon-close.svg';
+import LogoIcon from '../../public/assets/shared/logo.svg';
+import HamburgerIcon from '../../public/assets/shared/icon-hamburger.svg';
+import CloseIcon from '../../public/assets/shared/icon-close.svg';
 
 const Navbar = () => {
     const navLinks = [
